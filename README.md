@@ -2,9 +2,9 @@
 
 ## Docker image publishing secrets
 
-The CI workflow supports both secret pairs below:
+The CI workflow requires these secrets:
 
-- Preferred: `DOCKERHUB_USERNAME` and `DOCKERHUB_TOKEN`
-- Backward-compatible: `DOCKER_USERNAME` and `DOCKER_PASSWORD`
+- `DOCKERHUB_USERNAME`
+- `DOCKERHUB_TOKEN`
 
 For successful `docker push`, use a Docker Hub Personal Access Token with at least **Read** and **Write** permissions.
